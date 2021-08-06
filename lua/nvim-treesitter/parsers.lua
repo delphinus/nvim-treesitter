@@ -693,6 +693,15 @@ list.json5 = {
   maintainers = { "@Joakker" },
 }
 
+list.perl = {
+  install_info = {
+    url = "https://github.com/ganezdragon/tree-sitter-perl",
+    files = { "src/parser.c", "src/scanner.cc" },
+  },
+  filetype = { "perl" },
+  maintainers = { "@ganezdragon" },
+}
+
 local M = {
   list = list,
 }
